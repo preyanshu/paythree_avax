@@ -240,19 +240,41 @@
 - **Professional**: $299/month (up to 50 employees)
 - **Enterprise**: $999/month (unlimited employees)
 
+**Installation & Setup Services:**
+- **Basic Installation**: $2,500
+  - Smart contract deployment
+  - Basic configuration
+  - Team training (2 hours)
+  - 30-day support
+
+- **Professional Installation**: $7,500
+  - Custom smart contract development
+  - Advanced configuration
+  - Integration with existing systems
+  - Team training (8 hours)
+  - 90-day support
+
+- **Enterprise Installation**: $15,000+
+  - Fully customized solution
+  - Multi-organization setup
+  - Custom integrations
+  - Comprehensive training
+  - 6-month support + maintenance
+
 **Transaction Fees:**
 - 0.5% on each payout transaction
 - 1% on ESOP grants and claims
 
 **Additional Services:**
-- Custom smart contract deployment
-- Integration consulting
-- Compliance reporting
+- Custom smart contract deployment: $5,000+
+- Integration consulting: $200/hour
+- Compliance reporting: $500/month
+- Maintenance contracts: $1,000-$5,000/month
 
 **Projected Revenue:**
-- Year 1: $50K ARR
-- Year 2: $500K ARR
-- Year 3: $2M ARR
+- Year 1: $150K ARR (subscriptions + installations)
+- Year 2: $750K ARR
+- Year 3: $2.5M ARR
 
 ---
 
