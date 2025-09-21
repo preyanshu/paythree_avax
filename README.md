@@ -1,21 +1,18 @@
 
-# **PayThree – Payroll & ESOPs for the Somnia Ecosystem**
-
+# **PayThree – Payroll & ESOPs for the Avalanche Ecosystem**
 
 ## **Overview**
 
+**PayThree** is a next-generation platform built natively for the **Avalanche Fuji ecosystem**, designed to redefine how organizations manage global payroll and ESOPs.
 
+From a single, intuitive dashboard, organizations can **batch-process payouts** in one blockchain transaction, guarantee **on-chain transparency** with every payment verifiable on Avalanche's explorer, automate **ESOP vesting**, send **instant email notifications** for payouts and stock option events, and enable **cross-border, bank-free settlements** in seconds all while leveraging Avalanche's ultra-scalable, low-fee infrastructure.
 
-**PayThree** is a next-generation platform built natively for the **Somnia ecosystem**, designed to redefine how organizations manage global payroll and ESOPs.
-
-From a single, intuitive dashboard, organizations can **batch-process payouts** in one blockchain transaction, guarantee **on-chain transparency** with every payment verifiable on Somnia’s explorer, automate **ESOP vesting**, send **instant email notifications** for payouts and stock option events, and enable **cross-border, bank-free settlements** in seconds all while leveraging Somnia’s ultra-scalable, low-fee infrastructure.
-
-With PayThree, payroll isn’t just faster and cheaper  it’s global, verifiable, and built for the next generation of work
+With PayThree, payroll isn't just faster and cheaper – it's global, verifiable, and built for the next generation of work.
 
 ## Resources
 
 > **Note:** In the production version, the HR Portal is secured with role-based authentication and wallet verification.  
-> For the **Somnia Hackathon demo**, we’ve temporarily kept it open so anyone can explore its features without setup friction.
+> For the **Avalanche Fuji demo**, we've temporarily kept it open so anyone can explore its features without setup friction.
 
 | Resource | Resource Link |
 |----------|---------------|
@@ -23,8 +20,8 @@ With PayThree, payroll isn’t just faster and cheaper  it’s global, verifiabl
 | **HR Portal (Live Demo)** | [🔗 Open HR Portal](https://hrpaythreee-rho.vercel.app/) |
 | **Employee Portal (Live Demo)** | [🔗 Open Employee Portal](https://employeepaythreee.vercel.app/) |
 | **Demo Video** | [🔗 Watch on YouTube](https://youtube.com/your-demo-video) |
-| **SomniaScan – ESOP Smart Contract** | [🔗 Contract](https://shannon-explorer.somnia.network/address/0xDA30D2f74565DFC70f7c68Ec41bbbc97Fa3b7B78) |
-| **SomniaScan – Payout Smart Contract** | [🔗Contract](https://shannon-explorer.somnia.network/address/0x1A5D2170C16ACD5deb63f072fbc5EaDF00Db4Ce8) |
+| **Avalanche Fuji Explorer – ESOP Smart Contract** | [🔗 Contract](https://testnet.snowtrace.io/address/0xDA30D2f74565DFC70f7c68Ec41bbbc97Fa3b7B78) |
+| **Avalanche Fuji Explorer – Payout Smart Contract** | [🔗Contract](https://testnet.snowtrace.io/address/0x1A5D2170C16ACD5deb63f072fbc5EaDF00Db4Ce8) |
 
 
 ## **The Problems in Web3 Payroll Today**
@@ -46,7 +43,7 @@ With PayThree, payroll isn’t just faster and cheaper  it’s global, verifiabl
     
 -   **Verified Wallets** – Prevent costly payout errors
     
--   **On-Chain Transparency** – All payouts verifiable on Etherscan
+-   **On-Chain Transparency** – All payouts verifiable on Avalanche Explorer
     
 -   **Automated ESOP Vesting** – Complete stock option lifecycle on-chain
     
@@ -145,7 +142,7 @@ With PayThree, payroll isn’t just faster and cheaper  it’s global, verifiabl
   <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/6284a88e-b94d-4672-ad8f-af806d958203" />
 
 
-## **Future Roadmap for Somnia**
+## **Future Roadmap for Avalanche Fuji**
 
 1.  **AI Payroll Agent** 
     
@@ -161,33 +158,33 @@ With PayThree, payroll isn’t just faster and cheaper  it’s global, verifiabl
         
 5.  **DeFi-Integrated Payroll** 
     
-    -   Auto-stake salaries into Somnia-native DeFi protocols for passive yield.
+    -   Auto-stake salaries into Avalanche-native DeFi protocols for passive yield.
     
  6.  **ZK-Powered Privacy Layer**
 
      -  Use zero-knowledge proofs to verify payouts occurred without revealing individual employee salaries, protecting privacy while maintaining transparency.
 
-# Value to the Somnia Ecosystem
+# Value to the Avalanche Ecosystem
 
-PayThree is a flagship utility dApp that amplifies Somnia's strengths and drives ecosystem growth.
+PayThree is a flagship utility dApp that amplifies Avalanche's strengths and drives ecosystem growth.
 
-## 1. Showcasing Somnia's Low-Fee, High-Speed Network
+## 1. Showcasing Avalanche's Low-Fee, High-Speed Network
 
-Batch payouts and ESOP distributions become near-instant and cost-effective, demonstrating Somnia's scalable Layer 2 design for high-volume transactions.
+Batch payouts and ESOP distributions become near-instant and cost-effective, demonstrating Avalanche's scalable architecture for high-volume transactions.
 
 ## 2. Driving On-Chain Activity
 
-Every payout, ESOP vesting, and claim increases Somnia's daily active users and transaction count, boosting network health metrics that attract developers and investors.
+Every payout, ESOP vesting, and claim increases Avalanche's daily active users and transaction count, boosting network health metrics that attract developers and investors.
 
 ## 3. Expanding Use Cases Beyond DeFi
 
-PayThree introduces HR, payroll, and corporate finance as new categories, broadening Somnia's ecosystem diversity and showcasing its versatility.
+PayThree introduces HR, payroll, and corporate finance as new categories, broadening Avalanche's ecosystem diversity and showcasing its versatility.
 
-## 4. Attracting Organizations & Teams to Somnia
+## 4. Attracting Organizations & Teams to Avalanche
 
-Companies and DAOs using PayThree naturally onboard employees and contractors onto Somnia, expanding the user base organically through payroll adoption.
+Companies and DAOs using PayThree naturally onboard employees and contractors onto Avalanche, expanding the user base organically through payroll adoption.
 
-## 5. Future Integrations that Strengthen Somnia's Position
+## 5. Future Integrations that Strengthen Avalanche's Position
 
-Our roadmap includes AI-powered payroll agents, ZK-based privacy verification, and fiat on/off-ramps all built natively on Somnia, cementing it as the go-to chain for Web3 payroll infrastructure.
+Our roadmap includes AI-powered payroll agents, ZK-based privacy verification, and fiat on/off-ramps all built natively on Avalanche, cementing it as the go-to chain for Web3 payroll infrastructure.
 

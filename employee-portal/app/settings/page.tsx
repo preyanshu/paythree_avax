@@ -188,14 +188,14 @@ export default function SettingsPage() {
                     <SelectValue placeholder="Select stable coin for salaries" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="usdt">Tether (USDT)</SelectItem>
+                    <SelectItem value="usdt">Circle (USDC)</SelectItem>
                     <SelectItem value="usda" disabled>USD Coin (USDC) - Coming Soon</SelectItem>
                     <SelectItem value="usdc" disabled>Dai (DAI) - Coming Soon</SelectItem>
                     <SelectItem value="dai" disabled>Avalon USDa (USDA) - Coming Soon</SelectItem>
                   </SelectContent>
                 </Select>
                 <p className="text-xs text-muted-foreground">
-                  Currently only USDT is supported. Other stable coins will be available soon.
+                  Currently only USDC is supported. Other stable coins will be available soon.
                 </p>
               </div>
             </div>

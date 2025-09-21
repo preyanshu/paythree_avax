@@ -43,7 +43,7 @@ export default function SettingsPage() {
       const updateData: UpdateSettingsRequest = {
         organizationName: settings.organizationName,
         tokenAddress: settings.tokenAddress,
-        network: 'somnia', // Always set to somnia network
+        network: 'avalanchefuji',
         autoPayouts: settings.autoPayouts,
         notifications: settings.notifications,
         databaseUrl: settings.databaseUrl,
@@ -71,7 +71,7 @@ export default function SettingsPage() {
         },
         body: JSON.stringify({
           tokenAddress: settings.tokenAddress,
-          network: 'somnia',
+          network: 'avalanchefuji',
         }),
       });
       
@@ -83,7 +83,7 @@ export default function SettingsPage() {
         toast.error(data.error);
       }
     } catch (error) {
-      toast.error('Failed to connect to the Somnia network.');
+      toast.error('Failed to connect to the AvalancheFuji network.');
     } finally {
       setLoading(false);
     }
@@ -151,16 +151,16 @@ export default function SettingsPage() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="network">Network</Label>
-                <Select value="somnia" disabled>
+                <Select value="" disabled>
                   <SelectTrigger>
                     <SelectValue placeholder="Select network" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="somnia">Somnia Network</SelectItem>
+                    <SelectItem value="avalanchefuji">Avalanche Fuji</SelectItem>
                   </SelectContent>
                 </Select>
                 <p className="text-xs text-muted-foreground">
-                  Currently only Somnia network is supported.
+                  Currently only Avalanche Fuji network is supported.
                 </p>
               </div>
             </div>
@@ -188,14 +188,14 @@ export default function SettingsPage() {
                     <SelectValue placeholder="Select stable coin for salaries" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="usdt">Tether (USDT)</SelectItem>
+                    <SelectItem value="usdt">Circle (USDC)</SelectItem>
                     <SelectItem value="usda" disabled>USD Coin (USDC) - Coming Soon</SelectItem>
                     <SelectItem value="usdc" disabled>Dai (DAI) - Coming Soon</SelectItem>
                     <SelectItem value="dai" disabled>Avalon USDa (USDA) - Coming Soon</SelectItem>
                   </SelectContent>
                 </Select>
                 <p className="text-xs text-muted-foreground">
-                  Currently only USDT is supported. Other stable coins will be available soon.
+                  Currently only USDC is supported. Other stable coins will be available soon.
                 </p>
               </div>
             </div>
@@ -206,16 +206,16 @@ export default function SettingsPage() {
             <div className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="esopToken">ESOP Token</Label>
-                <Select value="somnia" disabled>
+                <Select value="avax" disabled>
                   <SelectTrigger>
                     <SelectValue placeholder="Select token for ESOPs" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="somnia">Somnia Coin (Native)</SelectItem>
+                    <SelectItem value="avax">Avax Coin (Native)</SelectItem>
                   </SelectContent>
                 </Select>
                 <p className="text-xs text-muted-foreground">
-                  ESOPs are distributed using the native Somnia coin.
+                  ESOPs are distributed using the native Avax coin.
                 </p>
               </div>
             </div>
