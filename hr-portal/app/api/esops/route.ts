@@ -34,7 +34,8 @@ export async function POST(req: Request) {
     const companyName = settings?.organizationName || "Your Company";
 
     // Parse start date safely
-    const startDateFormatted = new Date(start).toLocaleDateString();
+    const startDateFormatted = new Date(Number(start) * 1000).toLocaleDateString();
+
 
     // Send email
     await resend.emails.send({
