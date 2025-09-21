@@ -31,7 +31,7 @@ export function BalanceDisplay() {
   
         // Get USDC balance
         const usdcBalance = await getBalance(address);
-        const formattedBalance = Number(formatUnits(BigInt(usdcBalance), 18));
+        const formattedBalance = Number(formatUnits(BigInt(usdcBalance), 6));
         console.log('USDC Balance:', formattedBalance);
         setUsdcBalance(formattedBalance.toString());
       } catch (error) {

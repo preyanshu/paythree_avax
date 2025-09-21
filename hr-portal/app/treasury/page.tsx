@@ -31,6 +31,7 @@ export default function TreasuryPage() {
     try {
       setLoading(true);
       const balance = await getTreasuryBalanceUSD();
+      console.log(balance, 'balance');
       setBalance(balance);
     } catch (error) {
       console.error('Error loading treasury balance:', error);
@@ -61,7 +62,7 @@ export default function TreasuryPage() {
 
     try {
       // Convert USD amount to USDC units (6 decimals)
-      const amountInUSDC = parseUnits(amount.toString(), 18).toString();
+      const amountInUSDC = parseUnits(amount.toString(), 6).toString();
       
       // Execute the transaction
       const tx = await fundTreasuryWithApprove(amountInUSDC);
@@ -107,7 +108,7 @@ export default function TreasuryPage() {
 
     try {
       // Convert USD amount to USDC units (6 decimals)
-      const amountInUSDC = parseUnits(amount.toString(), 18).toString();
+      const amountInUSDC = parseUnits(amount.toString(), 6).toString();
       
       // Execute the transaction
       const tx = await withdrawFromTreasury(amountInUSDC);

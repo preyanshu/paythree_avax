@@ -32,7 +32,7 @@ export async function getTreasuryBalanceUSD(): Promise<number> {
 
     console.log(balance);
     // Convert from wei to USD (assuming 6 decimals for USDC)
-    return Number(formatUnits(BigInt(balance), 18));;
+    return Number(formatUnits(BigInt(balance), 6));;
   } catch (error) {
     console.error('Error getting treasury balance in USD:', error);
     return 0;

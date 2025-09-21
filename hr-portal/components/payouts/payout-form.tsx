@@ -77,7 +77,7 @@ export function PayoutForm({ selectedEmployees, onPayoutCreated, onClearSelectio
       console.log('Selected Employees:', selectedEmployees);
       const employees = selectedEmployees;
       const employeeAddresses = selectedEmployees.map(emp => emp.walletAddress);
-      const amounts = selectedEmployees.map(emp => parseUnits(emp.salaryUSD.toString(), 18).toString().toString());
+      const amounts = selectedEmployees.map(emp => parseUnits(emp.salaryUSD.toString(), 6).toString().toString());
 
       // Execute batch pay transaction
       const startTime = Date.now();
