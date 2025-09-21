@@ -111,7 +111,7 @@ With PayThree, payroll isn't just faster and cheaper – it's global, verifiable
 
 -   Manage org details, token addresses, and payout preferences.
 
-  <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/0c4157b4-5a0c-4b56-a5b3-2cc1f8a50257" />
+
 
     
 
